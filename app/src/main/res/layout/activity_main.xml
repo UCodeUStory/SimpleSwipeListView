@@ -10,8 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.administrator.simpleswipelistview.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        <com.example.swipe.SwipeListView
+            android:id="@+id/swipeListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="2dp"
+            android:divider="@android:color/black"
+            android:listSelector="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent">
+        </com.example.swipe.SwipeListView>
+
 </RelativeLayout>
